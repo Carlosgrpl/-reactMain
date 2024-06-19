@@ -1,0 +1,20 @@
+.card {
+    width: 40%; /* ocupe 40% de la pantalla */
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: inline-block;
+    vertical-align: top;
+
+    text-align: center;
+    padding: 10px; /* agrega un padding de 10px */
+    margin: 10px; /* corrected the typo from magin to margin */
+
+    &_image {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
